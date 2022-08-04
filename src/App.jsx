@@ -109,7 +109,7 @@ function App() {
           <div className="col-start-3 col-span-1">
             <Time localtime={wheater?.forecast.forecastday[0].date} />
           </div>
-          <div className="col-start-2 col-span-1 row-start-2 row-span-2">
+          <div className="col-start-1 col-span-3 row-start-2 row-span-2">
             <Temperature temperature={wheater?.current.temp_c} />
           </div>
           <div className="col-start-2 col-span-1">
